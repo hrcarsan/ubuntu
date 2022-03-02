@@ -16,7 +16,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
 
 ENV DISPLAY :99
 
-# To run chrome
+# To run firefox
 # docker run --rm -it hrcarsan/ubuntu:20.04-ff51-mvn bash
 # Xvfb :99 -screen 0 1024x768x16 -ac -nolisten tcp -nolisten unix &
 # firefox
